@@ -1,0 +1,183 @@
+.vendor-title {
+    position:absolute;
+    left:33px;
+    top:27px;
+    width:441px;
+    height:86px;
+    background:url('../images/my_images/payment_channel_icon.png') no-repeat;
+}
+.part-box {
+    position:absolute;
+    left:95px;
+    top:280px;
+    width:290px;
+    height:760px;
+    animation:topMove 1s;
+}
+@keyframes topMove {
+    0% {
+        top:175px;
+        opacity: 0;
+    }
+    100% {
+        top:280px;
+        opacity: 1;
+    }
+}
+@keyframes bottomMove {
+    0% {
+        top:365px;
+        opacity: 0;
+    }
+    100% {
+        top:280px;
+        opacity: 1;
+    }
+}
+.part-second {
+    left:457px;
+    animation:bottomMove 1s;
+}
+.part-third {
+    left:819px;
+}
+.part-fourth {
+    left:1181px;
+    animation:bottomMove 1s;
+}
+.part-fifth {
+    left:1543px;
+}
+.hotel-progress ,.entrance-ticket {
+    position:absolute;
+    top:0;
+    left:0;
+    width:140px;
+    height:600px;
+    background:url(../images/my_images/ota_progress_bg.png) no-repeat;
+}
+.entrance-ticket {
+    left:160px;
+}
+.hotel-title {
+    position:absolute;
+    left:0;
+    top: -86px;
+    width:140px;
+    height: 63px;
+    line-height:70px;
+    text-align: center;
+    background: url("../images/my_images/data_bg_border.png") no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    font-size:24px;
+    color:#b9fffc;
+}
+.hotel-text {
+    position:absolute;
+    left:0;
+    top:-15px;
+    font-size:22px;
+    color:#00fff4;
+}
+.hotel-nuber-text {
+    position:absolute;
+    left: 88px;
+    top: -15px;
+    font-size:22px;
+    color:#a3977e;
+}
+.information-title {
+    position:absolute;
+    left:0;
+    top:-25px;
+    width:326px;
+    text-align:center;
+    font-size:24px;
+    color:#00fff4;
+}
+.hotel-first {
+    position: absolute;
+    left: -33px;
+    bottom: 205px;
+    width: 329px;
+    height: 0;
+    transform-origin: 100% 100%;
+    transform: rotate(-33deg);
+    overflow: hidden;
+}
+.first-bar-icon {
+    position:absolute;
+    left: 296px;
+    bottom: -87px;
+    width: 43px;
+    height: 542px;
+    background:url(../images/my_images/ota_progress_bar01.png) no-repeat;
+    transform-origin:0 0;
+    transform:rotate(33deg);
+}
+.hotel-second {
+    position:absolute;
+    left: -214px;
+    bottom: 26px;
+    width: 318px;
+    height: 0;
+    transform-origin: 100% 100%;
+    transform: rotate(32deg);
+    overflow: hidden;
+}
+.second-bar-icon {
+    position:absolute;
+    left: -2px;
+    bottom: -104px;
+    width:43px;
+    height:542px;
+    background:url(../images/my_images/ota_progress_bar02.png) no-repeat;
+    transform-origin:0 0;
+    transform:rotate(-32deg);
+}
+.progress-bar-mask {
+    position:absolute;
+    left:22px;
+    top:546px;
+    width:88px;
+    height:29px;
+    background:url(../images/my_images/ota_progress_mask.png) no-repeat;
+}
+/*.first-progress-bar ,.second-progress-bar {*/
+    /*position:absolute;*/
+    /*left:0;*/
+    /*top:543px;*/
+    /*width:43px;*/
+    /*height:542px;*/
+    /*background:url(../images/my_images/ota_progress_bar01.png) no-repeat;*/
+/*}*/
+/*.second-progress-bar {*/
+    /*background:url(../images/my_images/ota_progress_bar02.png) no-repeat;*/
+/*}*/
+.information-box {
+    position:absolute;
+    left:-25px;
+    top:635px;
+    width:326px;
+    height:119px;
+    background:url(../images/my_images/ota_base_icon.png) no-repeat;
+}
+.hotel-number-content ,.hotel-money-content ,.ticket-number-content ,.ticket-money-content {
+    position:absolute;
+    left:8px;
+    top:29px;
+    width:145px;
+    font-size:16px;
+    color:#f4d18e;
+}
+.hotel-money-content {
+    top:69px;
+}
+.ticket-number-content {
+    left:150px;
+}
+.ticket-money-content {
+    left:150px;
+    top:69px;
+}

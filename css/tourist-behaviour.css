@@ -1,0 +1,196 @@
+.vendor-title {
+    position:absolute;
+    left:33px;
+    top:27px;
+    width:441px;
+    height:86px;
+    background:url('../images/my_images/vendor_title_icon.png') no-repeat;
+}
+.cicle-bg {
+    position:absolute;
+    left:810px;
+    top:470px;
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    background:rgba(0,255,244,0.2);
+}
+.cicle-first ,.cicle-second {
+    position:absolute;
+    left:30px;
+    top:30px;
+    width:240px;
+    height:240px;
+    border-radius: 50%;
+    background:rgba(0,255,244,0.2);
+}
+.cicle-second {
+    left:59px;
+    top:59px;
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background:none;
+    border:2px solid rgba(0,255,244,0.5);
+}
+.cicle-text {
+    width:120px;
+    margin:60px auto 0;
+    text-align: center;
+}
+.title-text {
+    position:absolute;
+    left: 20%;
+    top: 24%;
+    text-align:center;
+    font-size:20px;
+}
+.first-icon .title-text {
+    transform: rotate(60deg);
+    font-size:18px;
+}
+.first-icon .percent {
+    font-size:30px;
+}
+.second-icon .title-text {
+    font-size:30px;
+}
+.second-icon .percent {
+    font-size:60px;
+}
+.third-icon .title-text {
+    font-size:26px;
+    transform: rotate(300deg);
+}
+.third-icon .percent {
+    font-size:50px;
+}
+.fourth-icon .title-text {
+    font-size:26px;
+    transform: rotate(120deg);
+}
+.fourth-icon .percent {
+    font-size:50px;
+}
+.fifth-icon .title-text {
+    font-size:30px;
+    transform: rotate(180deg);
+}
+.fifth-icon .percent {
+    font-size:60px;
+}
+.sixth-icon .title-text {
+    font-size:22px;
+    transform: rotate(240deg);
+}
+.sixth-icon .percent {
+    font-size:40px;
+}
+.cicle-icon {
+    position:absolute;
+    left: 225px;
+    bottom: 210px;
+    width:253px;
+    height:253px;
+    background:url(../images/my_images/behaviour_drip_icon01.png) no-repeat 50% 50%;
+    background-size:contain;
+    transform:rotate(0deg);
+    transform-origin:0 100%;
+}
+.first-icon {
+    left: 139px;
+    bottom: 244px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-60deg);
+}
+.second-icon {
+    background:url(../images/my_images/behaviour_drip_icon02.png) no-repeat 50% 50%;
+    background-size:contain;
+}
+.third-icon {
+    left: 238px;
+    bottom: 116px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-300deg);
+    background: url(../images/my_images/behaviour_drip_icon03.png) no-repeat 50% 50%;
+    background-size: contain;
+}
+.fourth-icon {
+    left: 62px;
+    bottom: 186px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-120deg);
+    background: url(../images/my_images/behaviour_drip_icon04.png) no-repeat 50% 50%;
+    background-size: contain;
+}
+.fifth-icon {
+    left: 74px;
+    bottom: 94px;
+    width: 253px;
+    height: 253px;
+    transform: rotate(-180deg);
+    background: url(../images/my_images/behaviour_drip_icon05.png) no-repeat 50% 50%;
+    background-size: contain;
+}
+.sixth-icon {
+    left: 163px;
+    bottom: 55px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(-240deg);
+    background: url(../images/my_images/behaviour_drip_icon06.png) no-repeat 50% 50%;
+    background-size: contain;
+}
+.part-box {
+    position:absolute;
+    left:287px;
+    top:162px;
+    width:493px;
+    height:216px;
+    background:url(../images/my_images/behaviour_content_icon01.png) no-repeat;
+}
+.second-part {
+    left:1388px;
+    top:169px;
+    background:url(../images/my_images/behaviour_content_icon02.png) no-repeat;
+}
+.third-part {
+    left:1355px;
+    top:523px;
+    background:url(../images/my_images/behaviour_content_icon03.png) no-repeat;
+}
+.fourth-part {
+    left:80px;
+    top:547px;
+    background:url(../images/my_images/behaviour_content_icon04.png) no-repeat;
+}
+.fifth-part {
+    left:142px;
+    top:829px;
+    background:url(../images/my_images/behaviour_content_icon05.png) no-repeat;
+}
+.sixth-part {
+    left:1155px;
+    top:829px;
+    background:url(../images/my_images/behaviour_content_icon06.png) no-repeat;
+}
+.left-text {
+    float:left;
+    margin-left:20px;
+    margin-top:42px;
+    font-size:20px;
+    color:#f4d18e;
+}
+.right-text {
+    float:right;
+    margin-right:45px;
+    margin-top:42px;
+    font-size:20px;
+    color:#f4d18e;
+}
+.text-title {
+    font-size:26px;
+}

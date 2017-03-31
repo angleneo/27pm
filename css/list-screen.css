@@ -1,0 +1,157 @@
+body ,ul {
+    margin:0;
+    padding:0;
+}
+ul {
+    list-style:none;
+}
+a {
+    text-decoration: none;
+    color:#fff;
+}
+body {
+    font-family: "STHeiti Light", "Microsoft JhengHei", "Microsoft YaHei", "Apple LiGothic Medium", Helvetica, Arial, sans-serif;
+    background: -webkit-linear-gradient(#010201, #5e5d6f); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#010201, #5e5d6f); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#010201, #5e5d6f); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#010201, #5e5d6f); /* 标准的语法 */
+}
+.box {
+    position:relative;
+    width:1920px;
+    height:1080px;
+    overflow: hidden;
+}
+.left {
+    position:absolute;
+    top:0;
+    left:2px;
+    width:140px;
+    height:100%;
+    box-shadow: 1px 0 30px #8a8a96;
+}
+.right {
+    position:absolute;
+    right:2px;
+    top:0;
+    width:140px;
+    height:100%;
+    box-shadow: 1px 0 30px #8a8a96;
+}
+.select {
+    display: block;
+    width:140px;
+    height:74px;
+    text-align: center;
+    line-height:74px;
+    font-size:20px;
+    background:url(../images/my_images/list_screen_icon01.png) no-repeat;
+}
+.selected {
+    color:#f6cc75;
+    background:url(../images/my_images/list_screen_icon02.png) no-repeat;
+}
+.last ,.right-last {
+    display: block;
+    width:140px;
+    height:42px;
+    border-top:2px solid #fff;
+    font-size:20px;
+    background-color:#8a8a96;
+}
+.right-last {
+    border-color:#8a8a96;
+}
+.last-icon {
+    width:126px;
+    height:26px;
+    margin:7px auto;
+    text-indent:45px;
+    line-height:26px;
+    background:url(../images/my_images/list-icon.png) no-repeat;
+}
+.main {
+    position:relative;
+    width:1542px;
+    height:906px;
+    margin:80px auto;
+    background:url(../images/my_images/list_screen_base.png) no-repeat;
+}
+.main-icon {
+    position:absolute;
+    left:43px;
+    top:64px;
+    width:1429px;
+    height:804px;
+    background:url(../images/my_images/list_big_icon00.png) no-repeat;
+}
+.left-icon ,.right-icon {
+    position:absolute;
+    left:382px;
+    top:145px;
+    width:164px;
+    height:39px;
+    background:url(../images/my_images/list-main-icon.png) no-repeat;
+    animation:leftM 2s infinite;
+}
+@keyframes leftM {
+    0% {
+        opacity: 0;
+        left:342px;
+    }
+    80% {
+        opacity: 1;
+        left:382px;
+    }
+    100% {
+        opacity: 0;
+        left:382px;
+    }
+}
+.right-icon {
+    left:886px;
+    animation:rightM 2s;
+    -webkit-animation:rightM 2s infinite;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+@keyframes rightM {
+    0% {
+        opacity: 0;
+        left:926px;
+    }
+    80% {
+        opacity: 1;
+        left:886px;
+    }
+    100% {
+        opacity: 0;
+        left:886px;
+    }
+}
+#canvas {
+    position:absolute;
+    left: 541px;
+    top: 255px;
+    transform-origin: 50% 50%;
+    animation: canvasM 10s infinite;
+}
+@keyframes canvasM {
+    0% {
+        opacity: 0.5;
+        transform: rotate(0deg);
+    }
+    20% {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+    25% {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+    100% {
+        opacity: 0.5;
+        transform: rotate(720deg);
+    }
+}

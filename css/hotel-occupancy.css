@@ -1,0 +1,36 @@
+.vendor-title {
+    position:absolute;
+    left:33px;
+    top:27px;
+    width:441px;
+    height:86px;
+    background:url('../images/my_images/vendor_title_icon.png') no-repeat;
+}
+#canvas {
+    position:absolute;
+    left:126px;
+    top:142px;
+}
+#canvas-second {
+    position:absolute;
+    left:1084px;
+    top:142px;
+}
+.hotel-title {
+    position:absolute;
+    left:53px;
+    top:749px;
+    width:110px;
+    height:242px;
+    background:url(../images/my_images/hotel_title_box.png) no-repeat;
+}
+.hotel-title p{
+    width:40px;
+    margin-left: 29px;
+    margin-top: 22px;
+    font-size:40px;
+    color:#f4d18e;
+}
+.hotel-second {
+    left:1015px;
+}

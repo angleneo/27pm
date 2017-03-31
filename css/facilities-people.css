@@ -1,0 +1,40 @@
+.vendor-title {
+    position:absolute;
+    left:33px;
+    top:27px;
+    width:441px;
+    height:86px;
+    background:url('../images/my_images/vendor_title_icon.png') no-repeat;
+}
+.main {
+    position:relative;
+    width:1819px;
+    height:829px;
+    margin-top:52px;
+    margin-left:50px;
+    background:url(../images/my_images/facilities-base-icon.png) no-repeat;
+    animation:mainM 2s;
+}
+@keyframes mainM {
+    0% {
+        opacity: 0;
+        margin-top:32px;
+        margin-left:30px;
+    }
+    50% {
+        margin-top:72px;
+        margin-left:70px;
+    }
+    100% {
+        opacity: 1;
+        margin-top:52px;
+        margin-left:50px;
+    }
+}
+#canvas {
+    position:absolute;
+    top: 75px;
+    left: 46px;
+    width:1650px;
+    height:730px;
+}

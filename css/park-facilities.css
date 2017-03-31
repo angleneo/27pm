@@ -1,0 +1,140 @@
+.park-map {
+    position:absolute;
+    left:127px;
+    top:424px;
+    width:1642px;
+    height:570px;
+    background:url('../images/my_images/park_facilities_map.png')  no-repeat;
+}
+.vendor-title {
+    position:absolute;
+    left:33px;
+    top:27px;
+    width:441px;
+    height:86px;
+    background:url('../images/my_images/vendor_title_icon.png') no-repeat;
+}
+.part-box {
+    position:absolute;
+    left:124px;
+    top:310px;
+    width:116px;
+    height:290px;
+}
+.second-part {
+    left:348px;
+    top:257px;
+}
+.third-part {
+    left:510px;
+    top:268px;
+}
+.fourth-part {
+    left:668px;
+    top:275px;
+}
+.fifth-part {
+    left:868px;
+    top:192px;
+}
+.sixth-part {
+    left:1074px;
+    top:365px;
+}
+.seventh-part {
+    left:1422px;
+    top:221px;
+}
+.eighth-part {
+    left:1641px;
+    top:315px;
+}
+.ninth-part {
+    left:774px;
+    top:525px;
+}
+.tenth-part {
+    left:1418px;
+    top:604px;
+}
+.progress-bg {
+    position:absolute;
+    left:12px;
+    top:0;
+    width:88px;
+    height:244px;
+    background:url(../images/my_images/park_facilities_progress.png) no-repeat;
+}
+.progress-left-box {
+    position: absolute;
+    left: -26px;
+    bottom: 92px;
+    width: 168px;
+    height: 0;
+    transform: rotate(-33deg);
+    transform-origin: 100% 100%;
+    overflow: hidden;
+}
+.progress-left {
+    position: absolute;
+    left: -10px;
+    bottom: -25px;
+    width: 44px;
+    height: 248px;
+    background: url(../images/my_images/park_facilities_left.png) no-repeat;
+    transform: rotate(33deg);
+    transform-origin: 100% 100%;
+}
+.progress-right-box {
+    position: absolute;
+    left: -83px;
+    bottom: 0;
+    width: 168px;
+    height: 0;
+    transform: rotate(33deg);
+    transform-origin: 100% 100%;
+    overflow: hidden;
+}
+.progress-right {
+    position: absolute;
+    left: 126px;
+    bottom: -3px;
+    width: 44px;
+    height: 248px;
+    background: url(../images/my_images/park_facilities_right.png) no-repeat;
+    transform: rotate(-33deg);
+    transform-origin: 100% 100%;
+}
+.house {
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:115px;
+    height:81px;
+    background:url(../images/my_images/park_facilities_house.png) no-repeat;
+    font-size:22px;
+    color:#f4d18e;
+}
+.house p {
+    width:102px;
+    margin-top:44px;
+    text-align: center;
+}
+.left-text {
+    position:absolute;
+    left:-65px;
+    top:80px;
+    width:100px;
+    text-align: center;
+    font-size:16px;
+    color: #00fff4;
+}
+.right-text {
+    position:absolute;
+    left:55px;
+    top:38px;
+    width:100px;
+    text-align: center;
+    font-size:16px;
+    color: #f6e0b3;
+}

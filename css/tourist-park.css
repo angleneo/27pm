@@ -1,0 +1,154 @@
+.vendor-title {
+    position:absolute;
+    left:33px;
+    top:27px;
+    width:441px;
+    height:86px;
+    background:url('../images/my_images/vendor_title_icon.png') no-repeat;
+}
+.part-box {
+    position:absolute;
+    left:85px;
+    top:312px;
+    width:171px;
+    height:423px;
+}
+.portrait-icon {
+    position:relative;
+    width:171px;
+    height:423px;
+    overflow: hidden;
+}
+.content {
+    position:absolute;
+    left:180px;
+    top:0;
+}
+.first-text {
+    line-height:123px;
+    color:#ec4324;
+}
+.second-text {
+    line-height:50px;
+    color:#d88a25;
+}
+.sex-portrait .second-text {
+    line-height:300px;
+}
+.third-text {
+    line-height:100px;
+    color:#dd5991;
+}
+.fourth-text {
+    line-height:70px;
+    color:#c9cdce;
+}
+.fifth-text {
+    line-height:80px;
+    color:#0d8da6;
+}
+.first-line ,.second-line ,.third-line
+,.fourth-line ,.fifth-line {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: 5;
+    width:171px;
+    height:123px;
+    background:url(../images/my_images/portrait_icon01.png) no-repeat;
+    background-position:0 0;
+    box-shadow: 0 5px 30px #333;
+}
+.second-line {
+    top:123px;
+    z-index:4;
+    height:50px;
+    background:url(../images/my_images/portrait_icon02.png) no-repeat;
+    background-position:0 -123px;
+}
+.sex-portrait .second-line {
+    top:123px;
+    height:300px;
+    background-position:0 -123px;
+}
+.third-line {
+    top:173px;
+    z-index:3;
+    height:100px;
+    background:url(../images/my_images/portrait_icon03.png) no-repeat;
+    background-position:0 -173px;
+}
+.fourth-line {
+    top:273px;
+    z-index:2;
+    height:70px;
+    background:url(../images/my_images/portrait_icon04.png) no-repeat;
+    background-position:0 -273px;
+}
+.fifth-line {
+    top:343px;
+    z-index:1;
+    height:80px;
+    background:url(../images/my_images/portrait_icon05.png) no-repeat;
+    background-position:0 -343px;
+}
+.portrait-base {
+    position:absolute;
+    left:-50px;
+    top:490px;
+    width:277px;
+    height:244px;
+    background:url(../images/my_images/portrait_base_icon.png) no-repeat;
+}
+.base-content {
+    width:258px;
+    margin-top:39px;
+    line-height:36px;
+    text-align:center;
+    font-size:22px;
+}
+.sex-portrait .base-content {
+    margin-top:94px;
+}
+.base-first {
+    color:#ec4324;
+}
+.base-second {
+    color:#d88a25;
+}
+.base-third {
+    color:#dd5991;
+}
+.base-fourth {
+    color:#c9cdce;
+}
+.base-fifth {
+    color:#0d8da6;
+}
+.second-part {
+    left:400px;
+}
+.third-part {
+    left:705px;
+}
+.fourth-part {
+    left:1021px;
+}
+.fifth-part {
+    left:1327px;
+}
+.sixth-part {
+    left:1628px;
+}
+.people-title ,.team-title {
+    position:absolute;
+    left:169px;
+    top:175px;
+    width:622px;
+    height:103px;
+    background:url(../images/my_images/people_title_icon.png) no-repeat;
+}
+.team-title {
+    left:1099px;
+    background:url(../images/my_images/team_title_icon.png) no-repeat;
+}

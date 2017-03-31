@@ -1,0 +1,162 @@
+.vendor-title {
+    position:absolute;
+    left:33px;
+    top:27px;
+    width:441px;
+    height:86px;
+    background:url('../images/my_images/payment_method_icon.png') no-repeat;
+}
+.echart-bg {
+    position:absolute;
+    left:393px;
+    top:439px;
+    width:1183px;
+    height:638px;
+    background:url(../images/my_images/payment_pie_bg.png) no-repeat;
+    background-size:contain;
+    background-position: 50% 50%;
+}
+.echart-head {
+    position:absolute;
+    left: 900px;
+    top: 500px;
+    z-index: 3;
+    width: 240px;
+    height: 148px;
+    background:url(../images/my_images/payment_pie_head.png) no-repeat;
+    background-size:contain;
+    background-position: 50% 50%;
+}
+.echart-text {
+    display: none;
+    position: absolute;
+    left: 823px;
+    top: 472px;
+    z-index: 3;
+    width: 400px;
+    height: 148px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 0 5px 5px #000;
+}
+.echart {
+    position: absolute;
+    left: 570px;
+    top: 130px;
+    z-index: 2;
+    width: 900px;
+    height: 900px;
+    transform: perspective(800px) rotateY(0deg) rotateX(60deg);
+    transform-style: preserve-3d;
+}
+
+.part-box {
+    position:absolute;
+    left: 1395px;
+    top: 240px;
+    width:324px;
+    height:256px;
+    background:url(../images/my_images/payment_content_bg01.png) no-repeat;
+    color: #e6af1f;
+    animation:partBox 0.5s;
+}
+@keyframes partBox {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.part-second {
+    left:1570px;
+    top:673px;
+    background:url(../images/my_images/payment_content_bg02.png) no-repeat;
+    color:#5767dc;
+}
+.part-third {
+    left: 805px;
+    top: 153px;
+    background:url(../images/my_images/payment_content_bg03.png) no-repeat;
+    color:#dda7fc;
+}
+.part-fourth {
+    left: 22px;
+    top: 673px;
+    background:url(../images/my_images/payment_content_bg04.png) no-repeat;
+    color:#0dadfb;
+}
+.part-fifth {
+    left: 211px;
+    top: 237px;
+    background:url(../images/my_images/payment_content_bg05.png) no-repeat;
+    color:#02d20d;
+}
+.part-text {
+    position: absolute;
+    left:30px;
+    top: 36px;
+    font-size: 40px;
+}
+
+.vendor-progress-bar-first {
+    position: absolute;
+    left:30px;
+    top: 130px;
+    animation:firstBar 1s;
+}
+@keyframes firstBar {
+    0% {
+        left:-20px;
+        opacity: 0;
+    }
+    100% {
+        left: 30px;
+        opacity: 1;
+    }
+}
+.vendor-progress-bar-second {
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    animation:secondBar 1.5s;
+}
+@keyframes secondBar {
+    0% {
+        left:-20px;
+        opacity: 0;
+    }
+    33% {
+        left:-20px;
+        opacity: 0;
+    }
+    100% {
+        left: 30px;
+        opacity: 1;
+    }
+}
+.vendor-progress-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 205px;
+    height: 28px;
+    background: url('../images/my_images/vendor_progress_bar.png') no-repeat;
+    opacity: 1;
+}
+.progress-bar-data {
+    position: absolute;
+    left: 0;
+    top: -33px;
+    width: 300px;
+    font-size: 22px;
+}
+.progress-bar-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 28px;
+    background: url('../images/my_images/progress_bar_color.png') no-repeat;
+}
