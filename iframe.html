@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九屏图标图</title>
+    <link rel="stylesheet" href="css/resect.css"/>
+    <style type="text/css">
+        body {
+            overflow: hidden;
+            background-color:#ccc;
+        }
+        .main{
+            width: 100%;
+            height:100%;
+            border-collapse: collapse;
+            overflow: hidden;
+        }
+        .main td {
+            vertical-align: middle;
+            padding:1px;
+            background-color: #010101;
+        }
+        .main-iframe {
+            width:100%;
+            height:100%;
+            overflow: hidden;
+        }
+        .max-iframe {
+            position:fixed;
+            left:0;
+            top:0;
+            background-color:rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+<table class="main">
+    <tr>
+        <td>
+            <iframe class="main-iframe" src="park-facilities.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+        </td>
+        <td>
+            <iframe class="main-iframe" src="park-facilities.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+        </td>
+        <td>
+            <iframe class="main-iframe" src="park-facilities.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <iframe class="main-iframe" src="park-facilities.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+        </td>
+        <td>
+            <iframe class="main-iframe" src="park-facilities.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+        </td>
+        <td>
+            <iframe class="main-iframe" src="park-facilities.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+        </td>
+    </tr>
+</table>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+    $(function() {
+        $('.main-iframe').load(function () {
+            var w = $(this).width(),
+                    h = $(this).height(),
+                    scale = w / 1920,
+                    _this=$(this);
+            $(this).height(1080 * scale);
+            $(this).contents().find(".box").css({
+                'transform-origin': '0 0',
+                '-webkit-transform-origin': '0 0',
+                '-ms-transform-origin': '0 0',
+                '-moz-transform-origin': '0 0',
+                '-o-transform-origin': '0 0',
+                'transform': 'scale(' + scale + ')',
+                '-webkit-transform': 'scale(' + scale + ')',
+                '-ms-transform': 'scale(' + scale + ')',
+                '-moz-transform': 'scale(' + scale + ')',
+                '-o-transform': 'scale(' + scale + ')'
+            }).click(function () {
+                var mw = $(window).width(),
+                        mh = $(window).height(),
+                        mscale = mw / 1920;
+                if(!_this.hasClass('max-iframe')){
+                    _this.addClass('max-iframe');
+                    _this.height(1080 * mscale);
+                    $(this).css({
+                        'transform-origin': '0 0',
+                        '-webkit-transform-origin': '0 0',
+                        '-ms-transform-origin': '0 0',
+                        '-moz-transform-origin': '0 0',
+                        '-o-transform-origin': '0 0',
+                        'transform': 'scale(' + mscale + ')',
+                        '-webkit-transform': 'scale(' + mscale + ')',
+                        '-ms-transform': 'scale(' + mscale + ')',
+                        '-moz-transform': 'scale(' + mscale + ')',
+                        '-o-transform': 'scale(' + mscale + ')'
+                    });
+                }else {
+                    _this.removeClass('max-iframe');
+                    _this.height(1080 * scale);
+                    $(this).css({
+                        'transform-origin': '0 0',
+                        '-webkit-transform-origin': '0 0',
+                        '-ms-transform-origin': '0 0',
+                        '-moz-transform-origin': '0 0',
+                        '-o-transform-origin': '0 0',
+                        'transform': 'scale(' + scale + ')',
+                        '-webkit-transform': 'scale(' + scale + ')',
+                        '-ms-transform': 'scale(' + scale + ')',
+                        '-moz-transform': 'scale(' + scale + ')',
+                        '-o-transform': 'scale(' + scale + ')'
+                    });
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

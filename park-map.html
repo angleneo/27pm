@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动售货机</title>
+    <link rel="stylesheet" href="css/resect.css" />
+    <link rel="stylesheet" href="css/park-map.css"/>
+</head>
+<body>
+<div class="box">
+    <div class="park-map"></div>
+    <div class="bg-shade"></div>
+    <div class="vendor-title"></div>
+    <div class="time-box">
+        <div class="time-number time-year01"></div>
+        <div class="time-number time-year02"></div>
+        <div class="time-number time-year03"></div>
+        <div class="time-number time-year04"></div>
+        <div class="time-number time-month01"></div>
+        <div class="time-number time-month02"></div>
+        <div class="time-number time-day01"></div>
+        <div class="time-number time-day02"></div>
+        <div class="time-number time-hour01"></div>
+        <div class="time-number time-hour02"></div>
+        <div class="time-number time-minute01"></div>
+        <div class="time-number time-minute02"></div>
+        <div class="time-number time-second01"></div>
+        <div class="time-number time-second02"></div>
+    </div>
+    <div class="main-part">
+        <div class="part-box part-first" data-index="0">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">主入口</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-second" data-index="1">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">动物园三栖馆</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-third" data-index="2">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">食草动物区</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-fourth" data-index="3">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">鹦鹉馆</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-fifth" data-index="4">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">食肉动物区</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-sixth" data-index="5">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">动物园游客平台</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-seventh" data-index="6">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">鲨鱼馆</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-eighth" data-index="7">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">商业街南面</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-ninth" data-index="8">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">商业街北面</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-tenth" data-index="9">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">宗教文化馆</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-eleventh" data-index="10">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">吊桥滑索区</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-twelfth" data-index="11">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">鲤鱼集散区</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-thirteenth" data-index="12">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">摩天轮</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-fourteenth" data-index="13">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">海洋世界</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-fifteenth" data-index="14">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">葫芦口游客中心</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-sixteenth" data-index="15">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">猴山</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-seventeenth" data-index="16">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">动物园表演区</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+        <div class="part-box part-eighteenth" data-index="17">
+            <div class="content-bar">
+                <div class="second-bar"></div>
+            </div>
+            <canvas class="canvas" width="85" height="195"></canvas>
+            <div class="content-box">
+                <div class="content-bg"></div>
+                <div class="content-title">动物园入口</div>
+                <div class="content-text">
+                    <p style="color:#00fff4;">流量(人):18546</p>
+                    <p style="color:#f6e0b3;">营业额(元):18546</p>
+                    <p style="color:#61eb6e;">人均(元/人):18546</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/time.js"></script>
+<script src="js/park-map.js"></script>
+</body>
+</html>
